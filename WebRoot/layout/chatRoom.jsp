@@ -29,8 +29,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   	
   	<!-- musicplayer -->
   	<script type="text/javascript" src="layout/js/music.js"></script>
-  	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="fonts/fontCss.css">
 	<link rel="stylesheet" type="text/css" href="css/music.css">
 	
 	<script type="text/javascript">
@@ -121,8 +119,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	    <jsp:include page="center.jsp"></jsp:include>   	   
     </div>  
   	<div data-options="region:'south',title:'音乐随享',split:false,collapsible:false" style="background-color:#183850;height:100px;">
-  	 	 <jsp:include page="musicPlayer.jsp"></jsp:include> 
-  	 	<!-- <iframe scrolling="auto"  frameborder="0" src="layout/musicPlayer.jsp" style="width:100%;height:100%;"></iframe>	 -->
   	 </div>
      <div data-options="region:'east',title:'天气快报',split:false" style="background-color:#82C6F8;width:200px;">
      	 <jsp:include page="weather.jsp"></jsp:include>   	   

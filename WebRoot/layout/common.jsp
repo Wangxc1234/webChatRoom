@@ -3,12 +3,10 @@
 	<script type="text/javascript" src="js/jquery-easyui-1.6.3/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery-easyui-1.6.3/jquery.easyui.min.js"></script>
 	<script type="text/javascript" src="js/jquery-easyui-1.6.3/locale/easyui-lang-zh_CN.js"></script>
-	<link rel="stylesheet" type="text/css" href="js/style.css"></link>	
 	
 	<style type="text/css">		
 		.left{
 			margin-left:40px;
-		}				
 	</style>
 	<script type="text/javascript">
 	

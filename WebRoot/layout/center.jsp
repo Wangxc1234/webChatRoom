@@ -81,15 +81,12 @@
 							var percent = toPercent(scale);
 							var percent1 = toPercent(scale+0.02);
 							
-							$("#content").append("<p style='margin-left:"+percent+";'>"+obj.contentUsername+"&nbsp&nbsp"+date+"</p>");
 							if(undefined != obj.contentMsg){
-								$("#content").append("<div class='right'  style='left:"+percent1+";max-width:300px;top:0px;height:40px;'><p>"+obj.contentMsg+"</p></div>");
 							}
 						}
 						else{
 							$("#content").append("<p style='margin-left:12px;'>"+obj.contentUsername+"&nbsp&nbsp"+date+"</p>");
 							if(undefined != obj.contentMsg){
-								$("#content").append("<div class='left'  style='max-width:300px;height:40px;'><p>"+obj.contentMsg+"</p></div><br>");
 							}
 						}
 					}
@@ -153,7 +150,6 @@
 							
 							var scale = 1-((obj.fromPerson.length+date.length)*12)/(div.offsetWidth);
 							var percent = toPercent(scale);
-							var percent1 = toPercent(scale+0.02);
 							
 							var eleP = document.createElement("p");
 							eleP.setAttribute('style', 'margin-left:'+percent);	
@@ -165,7 +161,6 @@
 							if(undefined != obj.contentMsg){
 							
 								var eleDiv = document.createElement("div");
-								eleDiv.setAttribute('style', 'left:'+percent1+';max-width:300px;top:0px;height:40px');	
 								eleDiv.setAttribute('class', 'right');	
 								eleDiv.innerHTML = "<p>"+obj.contentMsg+"</p>";						
 								div.appendChild(eleDiv);
@@ -195,7 +190,6 @@
 							//$("#"+newId).append("<p style='margin-left:12px;'>"+obj.fromPerson+"&nbsp&nbsp"+date+"</p>");
 								if(undefined != obj.contentMsg){
 									var eleDiv = document.createElement("div");
-									eleDiv.setAttribute('style', 'max-width:300px;height:40px');	
 									eleDiv.setAttribute('class', 'left');	
 									eleDiv.innerHTML = "<p>"+obj.contentMsg+"</p>";							
 									div.appendChild(eleDiv);

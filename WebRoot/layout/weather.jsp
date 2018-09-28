@@ -10,7 +10,6 @@
 	<div id="currwind"></div>
 	<div id="lifeLead"></div>
 	
-	<table width="100%" top:10px; align="center">
    		
    		<tbody id="everyWeather"></tbody>
    </table>
